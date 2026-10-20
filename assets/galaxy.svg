@@ -494,7 +494,7 @@
 <circle cx="232.6" cy="253.8" r="2.9" fill="#72acff" opacity="0.95" filter="url(#g)"></circle>
 <circle cx="223.2" cy="225.9" r="1.1" fill="#26356a" opacity="0.35"></circle>
 <circle cx="214.6" cy="246.8" r="2.6" fill="#6096ff" opacity="0.95"></circle>
-<circle cx="222.0" cy="240.0" r="3.9" fill="#c4dbef" opacity="0.95" filter="url(#g)"><animate attributeName="opacity" values="0.95;.35;0.95" dur="3.3s" begin="-0.9s" repeatCount="indefinite"/></circle>
+<circle cx="222.0" cy="240.0" r="4.1" fill="#d1d8cf" opacity="0.95" filter="url(#g)"><animate attributeName="opacity" values="0.95;.35;0.95" dur="3.3s" begin="-0.9s" repeatCount="indefinite"/></circle>
 </g>
 <circle cx="222" cy="240" r="38" fill="url(#core)"/>
 <text x="222" y="244" font-size="9" fill="#040918" text-anchor="middle" font-weight="bold">NOW</text>
@@ -502,7 +502,7 @@
 <text x="452" y="70" font-size="12" fill="#8b9dca">1 star per day · 2026-10-20</text>
 <line x1="452" y1="84" x2="800" y2="84" stroke="#243566"/>
 <text x="452" y="110" font-size="13" fill="#8b9dca">CONTRIBUTIONS</text>
-<text x="610" y="110" font-size="14" fill="#eef4ff">1033</text>
+<text x="610" y="110" font-size="14" fill="#eef4ff">1035</text>
 <text x="452" y="136" font-size="13" fill="#8b9dca">ACTIVE DAYS</text>
 <text x="610" y="136" font-size="14" fill="#eef4ff">133 / 367</text>
 <text x="452" y="162" font-size="13" fill="#8b9dca">CURRENT STREAK</text>
