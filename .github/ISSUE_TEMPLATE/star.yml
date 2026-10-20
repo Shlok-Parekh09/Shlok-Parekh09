@@ -1,0 +1,29 @@
+name: "⭐ Add my star to the galaxy"
+description: "Put a named star in the Contribution Galaxy on my profile. It stays and keeps orbiting."
+title: "[STAR] add my star"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Your GitHub handle becomes a glowing star in my profile's **Contribution Galaxy**, with a short message beside it.
+        One star per person (submit again to change it). Letters, numbers and `! ? ' , -` only; 32 characters max. Abusive messages are filtered out.
+  - type: input
+    id: message
+    attributes:
+      label: Message
+      description: Up to 32 characters
+      placeholder: "hello from Berlin!"
+    validations:
+      required: true
+  - type: dropdown
+    id: color
+    attributes:
+      label: Color
+      options:
+        - cyan
+        - pink
+        - gold
+        - green
+        - violet
+    validations:
+      required: true

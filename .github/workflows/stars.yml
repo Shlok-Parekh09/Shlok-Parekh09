@@ -1,0 +1,43 @@
+name: Visitor stars
+
+on:
+  issues:
+    types: [opened]
+
+concurrency:
+  group: repo-writes
+  cancel-in-progress: false
+
+jobs:
+  add-star:
+    if: startsWith(github.event.issue.title, '[STAR]')
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      issues: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.repository.default_branch }}  # latest main, not the stale trigger-time sha
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Validate and record the star
+        run: python scripts/star_add.py
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_REPO: ${{ github.repository }}
+      - name: Redraw the galaxy
+        working-directory: scripts
+        run: python galaxy.py "${{ github.repository_owner }}" ../assets/galaxy.svg
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Commit
+        run: |
+          git config user.name "star-bot"
+          git config user.email "star-bot@users.noreply.github.com"
+          git add stars/visitors.json assets/galaxy.svg
+          git diff --cached --quiet && exit 0
+          git commit -m "chore(stars): new visitor star"
+          git pull --rebase -q
+          git push

@@ -1,0 +1,39 @@
+name: README CTF
+
+on:
+  issues:
+    types: [opened]
+
+concurrency:
+  group: repo-writes
+  cancel-in-progress: false
+
+jobs:
+  verify:
+    if: startsWith(github.event.issue.title, '[CTF]')
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      issues: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.repository.default_branch }}  # latest main, not the stale trigger-time sha
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Verify proof
+        run: python scripts/ctf_verify.py
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_REPO: ${{ github.repository }}
+          CTF_FLAG: ${{ secrets.CTF_FLAG }}
+      - name: Commit Hall of Fame
+        run: |
+          git config user.name "ctf-bot"
+          git config user.email "ctf-bot@users.noreply.github.com"
+          git add README.md ctf/solvers.json
+          git diff --cached --quiet && exit 0
+          git commit -m "chore(ctf): new operator in the Hall of Fame"
+          git pull --rebase -q
+          git push

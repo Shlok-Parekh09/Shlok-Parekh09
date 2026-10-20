@@ -1,0 +1,50 @@
+name: Update showcase (dossier, galaxy, radar)
+
+on:
+  schedule:
+    - cron: "17 */6 * * *" # every 6 hours
+  workflow_dispatch: {}
+  push:
+    branches: [main, master]
+    paths: ["scripts/**", "ctf/desc.hex", "README.md"]
+
+concurrency:
+  group: repo-writes
+  cancel-in-progress: false
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.repository.default_branch }}  # latest main, not the stale trigger-time sha
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install --quiet -r requirements.txt
+      - name: Render header, vitals, dossier, neural map, ops, skyline and galaxy
+        working-directory: scripts
+        run: |
+          python banners.py "${{ github.repository_owner }}" ../assets
+          python vitals.py  "${{ github.repository_owner }}" ../assets/vitals.svg
+          python dossier.py "${{ github.repository_owner }}" ../assets/dossier.svg
+          python skyline.py "${{ github.repository_owner }}" ../assets/skyline.svg
+          python galaxy.py  "${{ github.repository_owner }}" ../assets/galaxy.svg
+          python neural.py  "${{ github.repository_owner }}" ../assets/neural.svg
+          python ops.py     "${{ github.repository_owner }}" ../assets/ops.svg
+          python explorer.py "${{ github.repository_owner }}" ../README.md
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Commit if changed
+        run: |
+          git config user.name "showcase-bot"
+          git config user.email "showcase-bot@users.noreply.github.com"
+          git add assets/ README.md
+          git diff --cached --quiet && exit 0
+          git commit -m "chore(showcase): rescan"
+          git pull --rebase -q
+          git push

@@ -1,0 +1,20 @@
+name: "🔓 Submit CTF proof"
+description: "Cracked the README challenge? Submit your proof here."
+title: "[CTF] proof submission"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Compute your proof (bound to your GitHub login, lowercase):
+
+        ```bash
+        echo -n "SHLOK{the_flag_you_found}:your-login" | sha256sum | cut -c1-12
+        ```
+        Paste the 12 hex characters below. **Never paste the flag itself** — this issue is public.
+  - type: input
+    id: proof
+    attributes:
+      label: Proof
+      placeholder: "a1b2c3d4e5f6"
+    validations:
+      required: true
