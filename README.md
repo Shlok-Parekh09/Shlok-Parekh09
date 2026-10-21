@@ -119,6 +119,3 @@ U1RBR0UgMS8zIDo6IG5pY2UsIHlvdSBkZWNvZGVkIGJhc2U2NC4gdGhlIHJlcG8gbWFwIGlzIG1vcmUg
 
 <br/><br/>
 
-<sub>Visual design and generators adapted from <a href="https://github.com/Swas00/Swas00">Swas00</a>.<br/>Every chart above is generated from my GitHub data by scripts in this repo and rebuilt every six hours.</sub>
-
-</div>
