@@ -84,5 +84,5 @@
 <text x="452" y="388" font-size="14" opacity="0"><tspan fill="#eef4ff">TypeScript</tspan><tspan x="570" fill="#8fc7ff">█████░░░░░░░░░</tspan><tspan fill="#8b9dca"> 38%</tspan><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.1700;0.1740;.93;.97;1" dur="24.0s" repeatCount="indefinite"/></text>
 <text x="452" y="414" font-size="14" opacity="0"><tspan fill="#eef4ff">JavaScript</tspan><tspan x="570" fill="#8fc7ff">██░░░░░░░░░░░░</tspan><tspan fill="#8b9dca"> 12%</tspan><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.1775;0.1815;.93;.97;1" dur="24.0s" repeatCount="indefinite"/></text>
 <rect x="452" y="436" width="10" height="17" fill="#8fc7ff"><animate attributeName="opacity" values="1;1;0;0" keyTimes="0;.5;.5;1" dur="1s" repeatCount="indefinite"/></rect>
-<text x="806" y="514" font-size="10" fill="#8b9dca" text-anchor="end">rendered 2026-10-21 17:12 UTC &#183; scripts/dossier.py</text>
+<text x="806" y="514" font-size="10" fill="#8b9dca" text-anchor="end">rendered 2026-10-21 21:42 UTC &#183; scripts/dossier.py</text>
 </svg>

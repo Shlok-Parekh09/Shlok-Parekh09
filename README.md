@@ -52,8 +52,8 @@
 | Repo | Stack | Last push | Brief |
 |:--|:--|:--|:--|
 | [**AI_Deepfake_Detector**](https://github.com/Shlok-Parekh09/AI_Deepfake_Detector) · [live](https://ai-deepfake-detector-three.vercel.app) | `Python` | today | _Still cooking._ |
-| [**shlok-portfolio**](https://github.com/Shlok-Parekh09/shlok-portfolio) · [live](https://shlok-portfolio.pages.dev/) | `JavaScript` | today | _Still cooking._ |
-| [**Real-Time-Anomaly_Detection**](https://github.com/Shlok-Parekh09/Real-Time-Anomaly_Detection) · [live](https://real-time-anomaly-detection-omega.vercel.app) | `Python` | 25d ago | _Still cooking._ |
+| [**Real-Time-Anomaly_Detection**](https://github.com/Shlok-Parekh09/Real-Time-Anomaly_Detection) · [live](https://real-time-anomaly-detection-omega.vercel.app) | `Python` | today | _Still cooking._ |
+| [**shlok-portfolio**](https://github.com/Shlok-Parekh09/shlok-portfolio) · [live](https://shlok-portfolio.pages.dev/) | `JavaScript` | yesterday | _Still cooking._ |
 | [**course-verifier**](https://github.com/Shlok-Parekh09/course-verifier) | `Python` | 2mo ago | The Autonomous Course Verifier is a Python-based tool that extracts educational data from… |
 | [**intrusion_detection**](https://github.com/Shlok-Parekh09/intrusion_detection) · [live](https://intrusion-detection-three.vercel.app) | `TypeScript` | 3mo ago | _Still cooking._ |
 | [**AI_based_CRM**](https://github.com/Shlok-Parekh09/AI_based_CRM) · [live](https://custbuds.web.app/) | `TypeScript` | 3mo ago | _Still cooking._ |
