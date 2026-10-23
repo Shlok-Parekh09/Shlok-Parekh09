@@ -331,8 +331,8 @@ text{font-family:system-ui,-apple-system,'SF Pro Text','Segoe UI',Roboto,'Helvet
 <text x="600.3" y="339.8" font-size="11" font-weight="600" fill="#eef4ff" text-anchor="end" stroke="#08112b" stroke-width="3" paint-order="stroke">AI_Deepfake_Detector</text>
 <text x="188.3" y="313.6" font-size="11" font-weight="600" fill="#eef4ff" text-anchor="start" stroke="#08112b" stroke-width="3" paint-order="stroke">shlok-portfolio</text>
 <text x="600.7" y="380.7" font-size="11" font-weight="400" fill="#b4c4e8" text-anchor="end" stroke="#08112b" stroke-width="3" paint-order="stroke">course-verifier</text>
-<text x="492.3" y="127.2" font-size="11" font-weight="400" fill="#b4c4e8" text-anchor="start" stroke="#08112b" stroke-width="3" paint-order="stroke">AI_based_CRM</text>
 <text x="494.9" y="167.9" font-size="11" font-weight="400" fill="#b4c4e8" text-anchor="start" stroke="#08112b" stroke-width="3" paint-order="stroke">intrusion_detection</text>
+<text x="492.3" y="127.2" font-size="11" font-weight="400" fill="#b4c4e8" text-anchor="start" stroke="#08112b" stroke-width="3" paint-order="stroke">AI_based_CRM</text>
 <text x="459.1" y="151.2" font-size="11" font-weight="400" fill="#b4c4e8" text-anchor="start" stroke="#08112b" stroke-width="3" paint-order="stroke">Manhattan_Project</text>
 <text x="468" y="76" class="label" text-anchor="middle" style="fill:#38bdf8;stroke:#08112b;stroke-width:3px;paint-order:stroke">TypeScript &#183; 3</text>
 <text x="605" y="440" class="label" text-anchor="middle" style="fill:#34d399;stroke:#08112b;stroke-width:3px;paint-order:stroke">Python &#183; 3</text>
