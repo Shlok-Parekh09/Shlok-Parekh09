@@ -317,24 +317,24 @@ text{font-family:system-ui,-apple-system,'SF Pro Text','Segoe UI',Roboto,'Helvet
 <circle r="1.9" fill="#34d399" opacity="0"><animateMotion path="M487.5,127.1 L485.8,164.7" dur="3.9s" begin="-0.9s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;.95;.95;0" keyTimes="0;.15;.85;1" dur="3.9s" begin="-0.6s" repeatCount="indefinite"/></circle>
 <circle r="1.9" fill="#34d399" opacity="0"><animateMotion path="M448.0,162.5 L485.8,164.7" dur="3.8s" begin="-1.1s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;.95;.95;0" keyTimes="0;.15;.85;1" dur="3.8s" begin="-0.5s" repeatCount="indefinite"/></circle>
 <circle r="1.9" fill="#38bdf8" opacity="0"><animateMotion path="M580.9,354.6 L615.4,376.6" dur="5.4s" begin="-5.3s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;.95;.95;0" keyTimes="0;.15;.85;1" dur="5.4s" begin="-5.4s" repeatCount="indefinite"/></circle>
-<circle cx="617.2" cy="335.7" r="10.8" fill="#38bdf8" opacity="0" filter="url(#glow)"><animate attributeName="opacity" from="0" to="0.99" begin="0.20s" dur=".7s" fill="freeze"/></circle>
+<circle cx="617.2" cy="335.7" r="10.8" fill="#38bdf8" opacity="0" filter="url(#glow)"><animate attributeName="opacity" from="0" to="0.93" begin="0.20s" dur=".7s" fill="freeze"/></circle>
 <circle cx="617.2" cy="335.7" r="10.8" fill="none" stroke="#38bdf8" stroke-width="1.3" opacity="0"><animate attributeName="r" values="10.8;23.8" dur="2.8s" begin="1.50s" repeatCount="indefinite"/><animate attributeName="opacity" values=".85;0" dur="2.8s" begin="1.50s" repeatCount="indefinite"/></circle>
-<circle cx="450.8" cy="124.9" r="10.8" fill="#34d399" opacity="0"><animate attributeName="opacity" from="0" to="0.77" begin="0.23s" dur=".7s" fill="freeze"/></circle>
-<circle cx="485.8" cy="164.7" r="9.0" fill="#34d399" opacity="0" filter="url(#glow)"><animate attributeName="opacity" from="0" to="0.99" begin="0.25s" dur=".7s" fill="freeze"/></circle>
+<circle cx="450.8" cy="124.9" r="10.8" fill="#34d399" opacity="0"><animate attributeName="opacity" from="0" to="0.73" begin="0.23s" dur=".7s" fill="freeze"/></circle>
+<circle cx="485.8" cy="164.7" r="9.0" fill="#34d399" opacity="0" filter="url(#glow)"><animate attributeName="opacity" from="0" to="0.93" begin="0.25s" dur=".7s" fill="freeze"/></circle>
 <circle cx="485.8" cy="164.7" r="9.0" fill="none" stroke="#34d399" stroke-width="1.3" opacity="0"><animate attributeName="r" values="9.0;22.0" dur="2.8s" begin="2.12s" repeatCount="indefinite"/><animate attributeName="opacity" values=".85;0" dur="2.8s" begin="2.12s" repeatCount="indefinite"/></circle>
-<circle cx="487.5" cy="127.1" r="11.5" fill="#34d399" opacity="0" filter="url(#glow)"><animate attributeName="opacity" from="0" to="1.00" begin="0.28s" dur=".7s" fill="freeze"/></circle>
+<circle cx="487.5" cy="127.1" r="11.5" fill="#34d399" opacity="0" filter="url(#glow)"><animate attributeName="opacity" from="0" to="0.94" begin="0.28s" dur=".7s" fill="freeze"/></circle>
 <circle cx="487.5" cy="127.1" r="11.5" fill="none" stroke="#34d399" stroke-width="1.3" opacity="0"><animate attributeName="r" values="11.5;24.5" dur="2.8s" begin="2.43s" repeatCount="indefinite"/><animate attributeName="opacity" values=".85;0" dur="2.8s" begin="2.43s" repeatCount="indefinite"/></circle>
 <circle cx="615.4" cy="376.6" r="8.7" fill="#38bdf8" opacity="0"><animate attributeName="opacity" from="0" to="0.46" begin="0.30s" dur=".7s" fill="freeze"/></circle>
 <circle cx="580.9" cy="354.6" r="9.6" fill="#38bdf8" opacity="0"><animate attributeName="opacity" from="0" to="0.43" begin="0.33s" dur=".7s" fill="freeze"/></circle>
-<circle cx="448.0" cy="162.5" r="11.2" fill="#34d399" opacity="0"><animate attributeName="opacity" from="0" to="0.78" begin="0.35s" dur=".7s" fill="freeze"/></circle>
-<circle cx="172.5" cy="309.6" r="10.3" fill="#ffd23f" opacity="0"><animate attributeName="opacity" from="0" to="0.75" begin="0.38s" dur=".7s" fill="freeze"/></circle>
+<circle cx="448.0" cy="162.5" r="11.2" fill="#34d399" opacity="0"><animate attributeName="opacity" from="0" to="0.74" begin="0.35s" dur=".7s" fill="freeze"/></circle>
+<circle cx="172.5" cy="309.6" r="10.3" fill="#ffd23f" opacity="0"><animate attributeName="opacity" from="0" to="0.72" begin="0.38s" dur=".7s" fill="freeze"/></circle>
 <circle cx="485.8" cy="164.7" r="15.0" fill="none" stroke="#b4c4e8" stroke-width=".8" stroke-dasharray="2 3" opacity=".7"/>
 <circle cx="448.0" cy="162.5" r="17.2" fill="none" stroke="#b4c4e8" stroke-width=".8" stroke-dasharray="2 3" opacity=".7"/>
 <circle cx="617.2" cy="335.7" r="16.8" fill="none" stroke="#b4c4e8" stroke-width=".8" stroke-dasharray="2 3" opacity=".7"/>
 <text x="464.3" y="166.5" font-size="11" font-weight="400" fill="#b4c4e8" text-anchor="start" stroke="#08112b" stroke-width="3" paint-order="stroke">Real-Time-Anomaly_De</text>
-<text x="503.9" y="131.1" font-size="11" font-weight="600" fill="#eef4ff" text-anchor="start" stroke="#08112b" stroke-width="3" paint-order="stroke">course-verifier</text>
-<text x="601.4" y="339.7" font-size="11" font-weight="600" fill="#eef4ff" text-anchor="end" stroke="#08112b" stroke-width="3" paint-order="stroke">AI_based_CRM</text>
+<text x="466.6" y="128.9" font-size="11" font-weight="400" fill="#b4c4e8" text-anchor="start" stroke="#08112b" stroke-width="3" paint-order="stroke">AI_Deepfake_Detector</text>
 <text x="601.7" y="380.6" font-size="11" font-weight="400" fill="#b4c4e8" text-anchor="end" stroke="#08112b" stroke-width="3" paint-order="stroke">intrusion_detection</text>
+<text x="601.4" y="339.7" font-size="11" font-weight="600" fill="#eef4ff" text-anchor="end" stroke="#08112b" stroke-width="3" paint-order="stroke">AI_based_CRM</text>
 <text x="187.8" y="313.6" font-size="11" font-weight="400" fill="#b4c4e8" text-anchor="start" stroke="#08112b" stroke-width="3" paint-order="stroke">shlok-portfolio</text>
 <text x="566.3" y="358.6" font-size="11" font-weight="400" fill="#b4c4e8" text-anchor="end" stroke="#08112b" stroke-width="3" paint-order="stroke">Manhattan_Project</text>
 <text x="468" y="76" class="label" text-anchor="middle" style="fill:#34d399;stroke:#08112b;stroke-width:3px;paint-order:stroke">Python &#183; 4</text>
