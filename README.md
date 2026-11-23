@@ -51,9 +51,9 @@
 <!--OPS_START-->
 | Repo | Stack | Last push | Brief |
 |:--|:--|:--|:--|
-| [**cipher-rakshak**](https://github.com/Shlok-Parekh09/cipher-rakshak) | `TypeScript` | today | _Still cooking._ |
-| [**course-verifier**](https://github.com/Shlok-Parekh09/course-verifier) | `Python` | 7d ago | The Autonomous Course Verifier is a Python-based tool that extracts educational data from… |
-| [**AI_based_CRM**](https://github.com/Shlok-Parekh09/AI_based_CRM) · [live](https://custbuds.web.app/) | `TypeScript` | 8d ago | _Still cooking._ |
+| [**cipher-rakshak**](https://github.com/Shlok-Parekh09/cipher-rakshak) · [live](https://main.d3pgmkd8eujd0c.amplifyapp.com/) | `TypeScript` | today | _Still cooking._ |
+| [**course-verifier**](https://github.com/Shlok-Parekh09/course-verifier) | `Python` | 8d ago | The Autonomous Course Verifier is a Python-based tool that extracts educational data from… |
+| [**AI_based_CRM**](https://github.com/Shlok-Parekh09/AI_based_CRM) · [live](https://custbuds.web.app/) | `TypeScript` | 9d ago | _Still cooking._ |
 | [**CodeGuard**](https://github.com/Shlok-Parekh09/CodeGuard) | `Python` | 9d ago | CodeGuard is an advanced defensive security agent dedicated to safeguarding your software… |
 | [**Real-Time-Anomaly_Detection**](https://github.com/Shlok-Parekh09/Real-Time-Anomaly_Detection) · [live](https://real-time-anomaly-detection-omega.vercel.app) | `Python` | 30d ago | _Still cooking._ |
 | [**AI_Deepfake_Detector**](https://github.com/Shlok-Parekh09/AI_Deepfake_Detector) · [live](https://ai-deepfake-detector-three.vercel.app) | `Python` | 31d ago | A multimodal deepfake detection engine evaluating video, audio, and static image authenticity… |
