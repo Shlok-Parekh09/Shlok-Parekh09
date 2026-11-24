@@ -436,8 +436,8 @@
 <circle cx="197.8" cy="314.6" r="1.1" fill="#26356a" opacity="0.35"></circle>
 <circle cx="289.6" cy="201.7" r="1.1" fill="#26356a" opacity="0.35"></circle>
 <circle cx="146.9" cy="222.7" r="5.1" fill="#ffdf91" opacity="0.95" filter="url(#g)"><animate attributeName="opacity" values="0.95;.35;0.95" dur="4.9s" begin="-3.0s" repeatCount="indefinite"/></circle>
-<circle cx="265.3" cy="303.0" r="1.1" fill="#26356a" opacity="0.35"></circle>
-<circle cx="232.5" cy="165.0" r="3.2" fill="#88baff" opacity="0.95" filter="url(#g)"><animate attributeName="opacity" values="0.95;.35;0.95" dur="2.9s" begin="-0.3s" repeatCount="indefinite"/></circle>
+<circle cx="265.3" cy="303.0" r="2.6" fill="#6096ff" opacity="0.95"></circle>
+<circle cx="232.5" cy="165.0" r="2.9" fill="#72acff" opacity="0.95" filter="url(#g)"></circle>
 <circle cx="164.1" cy="287.8" r="1.1" fill="#26356a" opacity="0.35"></circle>
 <circle cx="296.3" cy="243.8" r="1.1" fill="#26356a" opacity="0.35"></circle>
 <circle cx="170.2" cy="187.5" r="2.6" fill="#6096ff" opacity="0.95"></circle>
@@ -483,8 +483,8 @@
 <circle cx="200.4" cy="270.7" r="1.1" fill="#26356a" opacity="0.35"></circle>
 <circle cx="257.3" cy="232.2" r="1.1" fill="#26356a" opacity="0.35"></circle>
 <circle cx="191.9" cy="222.6" r="1.1" fill="#26356a" opacity="0.35"></circle>
-<circle cx="232.0" cy="271.8" r="1.1" fill="#26356a" opacity="0.35"></circle>
-<circle cx="235.5" cy="211.3" r="2.9" fill="#72acff" opacity="0.95" filter="url(#g)"></circle>
+<circle cx="232.0" cy="271.8" r="2.6" fill="#6096ff" opacity="0.95"></circle>
+<circle cx="235.5" cy="211.3" r="2.6" fill="#6096ff" opacity="0.95"></circle>
 <circle cx="194.2" cy="251.5" r="4.3" fill="#e0d4a9" opacity="0.95" filter="url(#g)"><animate attributeName="opacity" values="0.95;.35;0.95" dur="2.5s" begin="-1.5s" repeatCount="indefinite"/></circle>
 <circle cx="248.7" cy="249.7" r="2.6" fill="#6096ff" opacity="0.95"></circle>
 <circle cx="209.8" cy="216.4" r="2.6" fill="#6096ff" opacity="0.95"></circle>
@@ -494,7 +494,7 @@
 <circle cx="232.6" cy="253.8" r="2.6" fill="#6096ff" opacity="0.95"></circle>
 <circle cx="223.2" cy="225.9" r="3.4" fill="#99c5ff" opacity="0.95" filter="url(#g)"><animate attributeName="opacity" values="0.95;.35;0.95" dur="2.5s" begin="-0.3s" repeatCount="indefinite"/></circle>
 <circle cx="214.6" cy="246.8" r="3.2" fill="#88baff" opacity="0.95" filter="url(#g)"><animate attributeName="opacity" values="0.95;.35;0.95" dur="2.9s" begin="-0.6s" repeatCount="indefinite"/></circle>
-<circle cx="222.0" cy="240.0" r="1.1" fill="#26356a" opacity="0.35"></circle>
+<circle cx="222.0" cy="240.0" r="3.8" fill="#bddbff" opacity="0.95" filter="url(#g)"><animate attributeName="opacity" values="0.95;.35;0.95" dur="3.3s" begin="-0.9s" repeatCount="indefinite"/></circle>
 <circle cx="131.3" cy="235.0" r="9" fill="none" stroke="#38bdf8" stroke-width="1"><animate attributeName="r" values="6;18;6" dur="4.3s" repeatCount="indefinite"/><animate attributeName="opacity" values=".8;0;.8" dur="4.3s" repeatCount="indefinite"/></circle>
 <polygon points="131.3,227.0 133.3,232.3 138.9,232.6 134.5,236.1 136.0,241.5 131.3,238.4 126.6,241.5 128.1,236.1 123.7,232.6 129.3,232.3" fill="#38bdf8" filter="url(#g)"/>
 <circle cx="179.1" cy="118.2" r="9" fill="none" stroke="#38bdf8" stroke-width="1"><animate attributeName="r" values="6;18;6" dur="5.0s" repeatCount="indefinite"/><animate attributeName="opacity" values=".8;0;.8" dur="5.0s" repeatCount="indefinite"/></circle>
@@ -506,11 +506,11 @@
 <text x="452" y="70" font-size="12" fill="#8b9dca">1 star per day · 2026-11-24</text>
 <line x1="452" y1="84" x2="800" y2="84" stroke="#243566"/>
 <text x="452" y="110" font-size="13" fill="#8b9dca">CONTRIBUTIONS</text>
-<text x="610" y="110" font-size="14" fill="#eef4ff">1052</text>
+<text x="610" y="110" font-size="14" fill="#eef4ff">1059</text>
 <text x="452" y="136" font-size="13" fill="#8b9dca">ACTIVE DAYS</text>
-<text x="610" y="136" font-size="14" fill="#eef4ff">140 / 367</text>
+<text x="610" y="136" font-size="14" fill="#eef4ff">143 / 367</text>
 <text x="452" y="162" font-size="13" fill="#8b9dca">CURRENT STREAK</text>
-<text x="610" y="162" font-size="14" fill="#eef4ff">10 days</text>
+<text x="610" y="162" font-size="14" fill="#eef4ff">12 days</text>
 <text x="452" y="188" font-size="13" fill="#8b9dca">LONGEST STREAK</text>
 <text x="610" y="188" font-size="14" fill="#eef4ff">17 days</text>
 <text x="452" y="214" font-size="13" fill="#8b9dca">BRIGHTEST STAR</text>
